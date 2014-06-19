@@ -91,4 +91,4 @@ dat.agg[1:6,1:8]
 
 # write tidy data 2
 
-write.csv(dat.agg, "data/tidydat2.txt")
+write.csv(dat.agg, "data/tidydat2.txt", row.names=FALSE)
