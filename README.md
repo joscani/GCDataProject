@@ -1,11 +1,4 @@
----
-output:
-  html_document:
-    theme: cerulean
-  pdf_document:
-    highlight: tango
-  word_document: default
----
+
 GCDataProject
 =============
 
