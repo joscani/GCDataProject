@@ -4,6 +4,7 @@ output:
     theme: cerulean
   pdf_document:
     highlight: tango
+  word_document: default
 ---
 GCDataProject
 =============
@@ -44,7 +45,7 @@ We save data in a tidy data set using `write.csv` function
 
 We caculate means  of x variables by subject and activity and save this in a new data set. For this purpose we use `melt` and `dcast` function from `reshape2` package. Last we save this data set in a file using `write.csv` function.
 
-emd
+
 
 
 
