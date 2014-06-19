@@ -81,7 +81,7 @@ write.csv(datos,"data/tidydat1.txt")
 # the average of each variable for each activity and each subject. 
 
 library(reshape2)
-library(plyr)
+
 
 dat.melt <- melt(datos,id.vars=c(1,2), measure.vars=3:68)
 head(dat.melt)
